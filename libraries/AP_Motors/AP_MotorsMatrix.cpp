@@ -727,16 +727,16 @@ void AP_MotorsMatrix::setup_motors(motor_frame_class frame_class, motor_frame_ty
                 case MOTOR_FRAME_TYPE_H:
                     add_motor_raw(AP_MOTORS_MOT_1,  -0.1736,     0.1687,    -0.9566,    1); // does this actually have to be the opposite motor??
                     add_motor_raw(AP_MOTORS_MOT_2,  -0.1736,     0.1091,    -0.6189,    2);
-                    add_motor_raw(AP_MOTORS_MOT_3,  -0.1736,     0.0496,    -0.2812,    3);
-                    add_motor_raw(AP_MOTORS_MOT_4,  -0.1736,    -0.0496,     0.2812,    4);
-                    add_motor_raw(AP_MOTORS_MOT_5,  -0.1736,    -0.1091,     0.6189,    5);
-                    add_motor_raw(AP_MOTORS_MOT_6,  -0.1736,    -0.1687,     0.9566,    6);
-                    add_motor_raw(AP_MOTORS_MOT_7,   0.1736,    -0.1687,    -0.9566,    7);
-                    add_motor_raw(AP_MOTORS_MOT_8,   0.1736,    -0.1091,    -0.6189,    8);
-                    add_motor_raw(AP_MOTORS_MOT_9,   0.1736,    -0.0496,    -0.2812,    9);
-                    add_motor_raw(AP_MOTORS_MOT_10,  0.1736,     0.0496,     0.2812,   10);
-                    add_motor_raw(AP_MOTORS_MOT_11,  0.1736,     0.1091,     0.6189,   11);
-                    add_motor_raw(AP_MOTORS_MOT_12,  0.1736,     0.1687,     0.9566,   12);
+                    add_motor_raw(AP_MOTORS_MOT_9,  -0.1736,     0.0496,    -0.2812,    3);
+                    add_motor_raw(AP_MOTORS_MOT_10, -0.1736,    -0.0496,     0.2812,    4);
+                    add_motor_raw(AP_MOTORS_MOT_3,  -0.1736,    -0.1091,     0.6189,    5);
+                    add_motor_raw(AP_MOTORS_MOT_4,  -0.1736,    -0.1687,     0.9566,    6);
+                    add_motor_raw(AP_MOTORS_MOT_5,   0.1736,    -0.1687,    -0.9566,    7);
+                    add_motor_raw(AP_MOTORS_MOT_6,   0.1736,    -0.1091,    -0.6189,    8);
+                    add_motor_raw(AP_MOTORS_MOT_11,  0.1736,    -0.0496,    -0.2812,    9);
+                    add_motor_raw(AP_MOTORS_MOT_12,  0.1736,     0.0496,     0.2812,   10);
+                    add_motor_raw(AP_MOTORS_MOT_7,   0.1736,     0.1091,     0.6189,   11);
+                    add_motor_raw(AP_MOTORS_MOT_8,   0.1736,     0.1687,     0.9566,   12);
                     success = true;
                     break;
                 default:
